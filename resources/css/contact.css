@@ -1,0 +1,77 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFB24D;
+    margin: 0;
+}
+
+
+.left-pane {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: url('../images/jenia-flerman-Mz875hyB5E0-unsplash.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 35%;
+}
+
+.title-container {
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.title-container h1 {
+    font-size: 28px;
+    color: #FFB24D;
+}
+
+.left-pane p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+.right-pane {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 65%;
+}
+
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 33px;
+    background-color: #fffce8;
+    height: 50vh;
+    padding: 0 50px;
+    margin-left: 3;
+}
+
+.form input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.form input[type="submit"]:focus {
+    outline: none;
+}
+

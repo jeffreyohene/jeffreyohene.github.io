@@ -1,0 +1,105 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Apply styles to the header */
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px 20px;
+  }
+  
+  /* Apply styles to the logo */
+  #logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+  }
+  
+  .nav-liste {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin: var(--spacing-1);
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: var(--color-accent);
+  }
+  
+  .nav-item a:hover {
+    color: var(--color-accent);
+  }
+  
+  /* Apply styles to social icons in the footer */
+  .social-icons {
+    margin-top: 20px;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #333;
+    font-size: 20px;
+  }
+  
+  /* Apply styles to the projects section */
+  main {
+    padding: var(--spacing-3);
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .project-item {
+    width: calc(33.33% - var(--spacing-3));
+    margin-bottom: var(--spacing-3);
+  }
+  
+  .project-item.large-image {
+    width: 100%;
+  }
+  
+  .project-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .fullscreen-image {
+    position: relative;
+    height: 100vh; /* Set the height to the full viewport height */
+    overflow: hidden; /* Hide the overflow to prevent scrolling */
+  }
+  
+  .fullscreen-image img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the image vertically and horizontally */
+    width: 100%; /* Make the image width 100% of the parent container */
+    height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    object-fit: cover; /* Scale the image to cover the entire container */
+  }
+  
+  /* Rest of your existing CSS code */
+  

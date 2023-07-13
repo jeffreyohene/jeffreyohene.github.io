@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    color: var(--font-color);
+  }
+  
+  :root {
+    --spacing-1: 8px;
+    --spacing-2: 12px;
+    --spacing-3: 16px;
+    --spacing-4: 24px;
+  
+    --border-radius: 12px;
+  
+    --font-color: #323232;
+    --background-color: #FFB24D;
+    --color-primary: #F09E30;
+    --color-secondary: #0069A3;
+    --color-accent: #30ABF0;
+  }
+  
+  h2 {
+    font-family: "Proza Libre", sans-serif;
+    margin: 0;
+    margin-bottom: var(--spacing-2);
+  }
+  
+  body {
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    font-size: 14px;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0 var(--spacing-3);
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    padding: var(--spacing-3) 0;
+    background-color: var(--color-primary);
+  }
+  
+  .nav-liste {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+  }
+  
+  .nav-item {
+    margin: var(--spacing-1);
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: var(--font-color);
+  }
+  
+  .nav-item a:hover {
+    color: var(--color-accent);
+  }
+  
+  .portrait {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  
+  .über-mich-container {
+    display: flex;
+  }
+  
+  .über-mich-wörder-container {
+    margin-right: var(--spacing-3);
+  }
+  
+  .projekt-titel h3 {
+    display: inline;
+  }
+  
+  details {
+    cursor: pointer;
+  }
+  
+  summary {
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: var(--spacing-2) 0;
+    text-align: center;
+    background-color: var(--color-primary);
+    color: white;
+  }
+  
+  section {
+    padding: var(--spacing-3) 0;
+  }
+  
+  .icon {
+    font-size: 2em;
+    color: var(--font-color);
+    margin: 0 var(--spacing-1);
+  }
+  
+  a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  #logo {
+    margin: 0;
+  }
+  
+  #container-fähigkeiten {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  #container-fähigkeiten > * {
+    font-size: 2em;
+    width: 2em;
+    margin-top: var(--spacing-1);
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .about-me-container {
+      flex-direction: column;
+    }
+  }
+  
