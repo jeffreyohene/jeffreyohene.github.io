@@ -45,8 +45,10 @@ body {
 nav {
     display: flex;
     align-items: center;
-    padding: var(--spacing-3) 0;
-}
+    justify-content: space-around;
+    min-height: 8vh;
+    background: var(--dark-blue);
+  }
 
 .nav-liste {
     display: flex;
