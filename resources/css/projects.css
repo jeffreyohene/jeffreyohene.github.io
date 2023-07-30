@@ -36,6 +36,44 @@ footer {
     font-size: 30px;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 8vh;
+    background: var(--dark-blue);
+  }
+
+.nav-liste {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+.nav-item {
+    margin: var(--spacing-2);
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    font-size: 30px;
+    color: #000;
+    margin-right: 20px;
+}
+
+.nav-item a:hover {
+    color: #30ABF0; 
+}
+
+#logo {
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    font-size: 50px;
+}
+
 a {
     color: var(--font-color);
     text-decoration: none;
