@@ -12,7 +12,6 @@
 
 html {
     background-color: #FFB24D;
-    scroll-behavior: smooth;
 }
 
 main {
@@ -90,7 +89,7 @@ a:active {
 }
 
 a:visited {
-    color: #75529D;
+    color: #30ABF0;
 }
 
 p {
@@ -127,3 +126,16 @@ p {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 768px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .nav-liste {
+        margin-top: 20px;
+    }
+
+    .nav-item {
+        margin: var(--spacing-1);
+    }
+}
