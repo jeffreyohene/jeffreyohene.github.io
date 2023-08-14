@@ -68,7 +68,7 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #30ABF0; 
+    color: #3572A5; 
 }
 
 .portrait {
@@ -100,11 +100,38 @@ summary {
 }
 
 footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: auto;
     font-size: 20px;
-    padding: var(--spacing-2) 0;
     text-align: center;
 }
+
+span {
+    margin-left: 5px;
+}
+.footer-name {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+i {
+    font-size: 15px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    color: #333;
+    font-size: 20px;
+}
+
 
 section {
     padding: var(--spacing-3) 0;
@@ -116,10 +143,31 @@ section {
     margin: 0 var(--spacing-1);
 }
 
+#zeit-container {
+    color: #3572A5;
+}
+
+section a {
+    text-decoration: underline;
+}
+
 a {
     color: var(--font-color);
     text-decoration: none;
     font-weight: 600;
+}
+
+a:hover {
+    color: #3572A5;
+    text-decoration: none;
+}
+
+a:active {
+    color: #000;
+}
+
+a:visited {
+    color: #6A0DAD;
 }
 
 #logo {

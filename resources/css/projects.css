@@ -20,6 +20,10 @@ main {
     font-size: 20px;
 }
 
+h2 {
+    color: #000;
+}
+
 footer {
     font-size: 16px;
     display: flex;
@@ -65,7 +69,7 @@ nav {
 }
 
 .nav-item a:hover {
-    color: #30ABF0; 
+    color: #3572A5; 
 }
 
 #logo {
@@ -80,16 +84,16 @@ a {
 }
 
 a:hover {
-    color: #30ABF0;
+    color: #3572A5;
     text-decoration: none;
 }
 
 a:active {
-    color: #FFB24D;
+    color: #000;
 }
 
 a:visited {
-    color: #30ABF0;
+    color: #6A0DAD;
 }
 
 p {
