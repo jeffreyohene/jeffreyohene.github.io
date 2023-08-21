@@ -8,7 +8,6 @@
 html,
 body {
     height: 100%;
-    color: var(--font-color);
 }
 
 :root {
@@ -164,22 +163,22 @@ summary {
     color: #800080;
 }
 
-.projekts a {
-    color: var(--font-color);
+.projekt-titel a {
+    color: #3572A5;
     text-decoration: none;
     font-weight: 600;
 }
 
-.projekts a:hover {
+.projekt-titel a:hover {
     color: #3572A5;
     text-decoration: underline;
 }
 
-.projekts a:active {
+.projekt-titel a:active {
     color: #000;
 }
 
-.projekts a:visited {
+.projekt-titel a:visited {
     color: #800080;
 }
 
@@ -223,16 +222,16 @@ span {
 }
 
 footer .social-icons a i {
-    font-size: 30px; /* Adjust the size as needed */
-    color: #1DA1F2; /* Twitter icon color */
+    font-size: 30px;
+    color: #1DA1F2;
 }
 
 footer .social-icons a i.fab.fa-linkedin {
-    color: #0A66C2; /* LinkedIn icon color */
+    color: #0A66C2;
 }
 
 footer .social-icons a i.fab.fa-github {
-    color: #181717; /* GitHub icon color */
+    color: #181717;
 }
 .social-icons {
     display: flex;
