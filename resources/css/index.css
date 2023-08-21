@@ -40,6 +40,31 @@ body {
     flex-direction: column;
 }
 
+#logo {
+    margin: 0;
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+#logo a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+#logo a:hover {
+    color: #3572A5;
+    text-decoration: underline;
+}
+
+#logo a:active {
+    color: #000;
+}
+
+#logo a:visited {
+    color: #8e0a8e;
+}
+
 nav {
     display: flex;
     align-items: center;
@@ -63,12 +88,22 @@ nav {
 }
 
 .nav-item a {
+    color: var(--font-color);
     text-decoration: none;
-    color: #333;
+    font-weight: 600;
 }
 
 .nav-item a:hover {
-    color: #3572A5; 
+    color: #3572A5;
+    text-decoration: underline;
+}
+
+.nav-item a:active {
+    color: #000;
+}
+
+.nav-item a:visited {
+    color: #8e0a8e;
 }
 
 .portrait {
@@ -99,44 +134,6 @@ summary {
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: auto;
-    font-size: 20px;
-    text-align: center;
-}
-
-span {
-    margin-left: 5px;
-}
-.footer-name {
-    font-size: 16px;
-    margin-left: 5px;
-}
-
-i {
-    font-size: 15px;
-}
-
-.social-icons {
-    display: flex;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.social-icons a {
-    margin: 0 10px;
-    color: #333;
-    font-size: 20px;
-}
-
-
-section {
-    padding: var(--spacing-3) 0;
-}
-
 .icon {
     font-size: 2em;
     color: var(--font-color);
@@ -147,33 +144,43 @@ section {
     color: #3572A5;
 }
 
-section a {
-    text-decoration: underline;
-}
 
-a {
+.über-mich-container a {
     color: var(--font-color);
     text-decoration: none;
     font-weight: 600;
 }
 
-a:hover {
+.über-mich-container a:hover {
     color: #3572A5;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
-a:active {
+.über-mich-container a:active {
     color: #000;
 }
 
-a:visited {
-    color: #6A0DAD;
+.über-mich-container a:visited {
+    color: #800080;
 }
 
-#logo {
-    margin: 0;
-    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
-    font-size: 30px;
+.projekts a {
+    color: var(--font-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.projekts a:hover {
+    color: #3572A5;
+    text-decoration: underline;
+}
+
+.projekts a:active {
+    color: #000;
+}
+
+.projekts a:visited {
+    color: #800080;
 }
 
 .social-icons i {
@@ -191,6 +198,51 @@ a:visited {
     font-size: 2em;
     width: 2em;
     margin-top: var(--spacing-1);
+}
+
+#fähigkeiten {
+    margin-top: 20px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-size: 20px;
+    text-align: center;
+}
+
+span {
+    margin-left: 5px;
+}
+
+.footer-name {
+    font-size: 16px;
+    margin-left: 5px;
+}
+
+footer .social-icons a i {
+    font-size: 30px; /* Adjust the size as needed */
+    color: #1DA1F2; /* Twitter icon color */
+}
+
+footer .social-icons a i.fab.fa-linkedin {
+    color: #0A66C2; /* LinkedIn icon color */
+}
+
+footer .social-icons a i.fab.fa-github {
+    color: #181717; /* GitHub icon color */
+}
+.social-icons {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.social-icons a {
+    margin: 0 10px;
+    font-size: 40px;
 }
 
 @media only screen and (max-width: 600px) {
