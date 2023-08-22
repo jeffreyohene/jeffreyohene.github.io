@@ -187,7 +187,7 @@ p {
     border-radius: 5px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
     nav {
         flex-direction: column;
     }

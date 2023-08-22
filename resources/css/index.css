@@ -45,6 +45,25 @@ body {
     font-size: 30px;
 }
 
+a {
+    color: #3572A5;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+a:hover {
+    color: #3572A5;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+}
+
+a:visited {
+    color: #800080;
+}
+
 #logo a {
     color: var(--font-color);
     text-decoration: none;
@@ -254,4 +273,50 @@ footer .social-icons a i.fab.fa-github {
         height: 200px;
     }
 
+    .nav-liste {
+        margin: 0; /* Reset margin for navigation list */
+    }
+
+    .nav-item {
+        margin: var(--spacing-1); /* Restore margin for navigation items */
+        font-size: 16px;
+    }
+
+    .icon {
+        font-size: 1.5em;
+    }
+
+    /* Reduce spacing between navigation items */
+    .nav-liste .nav-item:not(:last-child) {
+        margin-right: var(--spacing-1);
+    }
+
+    /* Adjust spacing for the über-mich-container */
+    .über-mich-wörter-container {
+        margin-right: 0;
+        margin-bottom: var(--spacing-2);
+    }
+
+    /* Reduce spacing between links in the container */
+    .über-mich-container a,
+    .projekt-titel a {
+        margin: 0 var(--spacing-1);
+    }
+    
+    /* Adjust spacing for social icons */
+    .social-icons a {
+        margin: 0 8px;
+        font-size: 30px;
+    }
+
+    /* Adjust spacing for the footer */
+    footer {
+        margin-top: 30px;
+        font-size: 16px;
+    }
+
+    /* Adjust spacing for the icon in the footer */
+    footer .social-icons a i {
+        font-size: 24px;
+    }
 }
