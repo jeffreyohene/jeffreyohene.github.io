@@ -1,0 +1,70 @@
+/* Define the JetBrains Mono font */
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFB24D;
+    text-align: left;
+}
+
+/* Apply styles to the article container */
+article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #FFB24D;
+}
+
+/* Apply styles to headings */
+h1 {
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 24px;
+}
+
+h3,
+h4 {
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    color: #555;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+p,
+li {
+    font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
+    color: #333;
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+/* Apply styles to code blocks */
+div.code-chunk {
+    white-space: pre-line;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f4f4f4;
+    margin: 10px 0;
+}
+
+div.code-chunk code {
+    font-family: monospace;
+    white-space: pre;
+    text-align: left;
+    display: block;
+}
+
+/* Apply styles to images */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+

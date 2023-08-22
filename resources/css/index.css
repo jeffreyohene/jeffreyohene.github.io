@@ -207,7 +207,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: auto;
+    margin-top: 50px;
     font-size: 20px;
     text-align: center;
 }
@@ -246,12 +246,12 @@ footer .social-icons a i.fab.fa-github {
 
 @media only screen and (max-width: 600px) {
     body {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     .portrait {
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 
     .über-mich-wörter-container {
@@ -267,5 +267,15 @@ footer .social-icons a i.fab.fa-github {
     .icon {
         font-size: 1.5em;
         margin: 0 var(--spacing-1);
+    }
+
+    .nav-item a,
+    .social-icons a,
+    .über-mich-container a,
+    .projekt-titel a {
+        padding: 12px;
+        min-width: 48px;
+        min-height: 48px;
+        display: inline-block;
     }
 }
