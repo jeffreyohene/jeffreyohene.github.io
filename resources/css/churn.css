@@ -66,5 +66,10 @@ img {
     height: auto;
 }
 
-
-
+/* Apply styles for mobile devices */
+@media only screen and (max-width: 600px) {
+    article {
+        width: 100%;
+        padding: 15px;
+}
+}
