@@ -250,8 +250,8 @@ footer .social-icons a i.fab.fa-github {
     }
 
     .portrait {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
     }
 
     .über-mich-wörter-container {
@@ -261,7 +261,7 @@ footer .social-icons a i.fab.fa-github {
 
     .nav-item {
         margin: var(--spacing-1);
-        font-size: 20px;
+        font-size: 16px;
     }
 
     .icon {
@@ -273,7 +273,7 @@ footer .social-icons a i.fab.fa-github {
     .social-icons a,
     .über-mich-container a,
     .projekt-titel a {
-        padding: 12px;
+        padding: 10px;
         min-width: 48px;
         min-height: 48px;
         display: inline-block;
