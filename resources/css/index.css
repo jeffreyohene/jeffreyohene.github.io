@@ -263,60 +263,63 @@ footer .social-icons a i.fab.fa-github {
     font-size: 40px;
 }
 
-@media only screen and (max-width: 600px) {
+@media (max-width: 600px) {
     body {
-        font-size: 12px;
+        font-size: 14px;
+        padding: 0 var(--spacing-1);
     }
 
-    .portrait {
-        width: 200px;
-        height: 200px;
-    }
-
-    .nav-liste {
-        margin: 0; /* Reset margin for navigation list */
-    }
-
-    .nav-item {
-        margin: var(--spacing-1); /* Restore margin for navigation items */
+    #logo {
+        font-family: 'JetBrains Mono', monospace, 'Open Sans', sans-serif;
         font-size: 16px;
     }
-
-    .icon {
-        font-size: 1.5em;
+    
+    .nav-item {
+        font-size: 15px;
+        margin: var(--spacing-1) 5px;
     }
-
-    /* Reduce spacing between navigation items */
-    .nav-liste .nav-item:not(:last-child) {
-        margin-right: var(--spacing-1);
+    
+    .portrait {
+        width: 180px;
+        height: 180px;
+        margin-bottom: 20px;
     }
-
-    /* Adjust spacing for the über-mich-container */
+    
+    .über-mich-container {
+        flex-direction: column;
+    }
+    
     .über-mich-wörter-container {
         margin-right: 0;
         margin-bottom: var(--spacing-2);
     }
-
-    /* Reduce spacing between links in the container */
-    .über-mich-container a,
-    .projekt-titel a {
+    
+    .projekt-titel h3 {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+    
+    .icon {
+        font-size: 1.1em;
         margin: 0 var(--spacing-1);
     }
     
-    /* Adjust spacing for social icons */
     .social-icons a {
-        margin: 0 8px;
+        margin: 0 5px;
         font-size: 30px;
     }
-
-    /* Adjust spacing for the footer */
+    
     footer {
         margin-top: 30px;
         font-size: 16px;
     }
-
-    /* Adjust spacing for the icon in the footer */
+    
     footer .social-icons a i {
-        font-size: 24px;
+        font-size: 16px;
     }
+
+    .footer-name {
+        font-size: 14px;
+    }
+    
 }

@@ -22,7 +22,7 @@ nav {
     justify-content: space-around;
     min-height: 8vh;
     background: var(--dark-blue);
-  }
+}
 
 .nav-liste {
     display: flex;
@@ -47,10 +47,6 @@ nav {
 
 .nav-item a:hover {
     color: #3572A5; 
-}
-
-.fab fa-github a:hover {
-    color: #000;
 }
 
 #logo {
@@ -104,14 +100,28 @@ p {
 }
 
 footer {
-    font-size: 16px;
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
-    padding: var(--spacing-3);
-    background-color: var(--dark-blue);
-    color: #fff;
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.footer-name {
+    font-size: 13px;
+}
+
+footer .social-icons a i {
+    font-size: 20px;
+    color: #1DA1F2;
+}
+
+footer .social-icons a i.fab.fa-linkedin {
+    color: #0A66C2;
+}
+
+footer .social-icons a i.fab.fa-github {
+    color: #181717;
 }
 
 .social-icons a {
@@ -124,4 +134,35 @@ footer {
 
 .social-icons a:hover {
     color: #30ABF0;
+}
+
+/* Media query for iPhone X screen size */
+@media (max-width: 450px) {
+    main {
+        font-size: 18px;
+        padding: var(--spacing-2);
+    }
+
+    .nav-item a {
+        font-size: 24px;
+        margin-right: 10px;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    .project-item img {
+        height: 250px;
+    }
+
+    footer {
+        font-size: 14px;
+        padding: var(--spacing-2);
+    }
+
+    .social-icons a {
+        margin: 4px;
+        font-size: 26px;
+    }
 }
